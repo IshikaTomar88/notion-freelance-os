@@ -1,37 +1,30 @@
 <div align="center">
 
-# 📊 Notion Freelance Operating System (OS)
+# 🤖 Enterprise System Prompt & Custom GPT Architecture Vault
 
-**A professional, hand-crafted business management workspace designed for freelancers, agency owners, and independent contractors.**
+**A production-ready collection of optimized system prompts, guardrails, and structured output schemas for LLM deployments.**
 
-[![Notion Verified](https://img.shields.io/badge/Notion-Template-000000?style=for-the-badge&logo=notion&logoColor=white)](https://your-name.notion.site/Freelance-OS-Demo)
+[![Prompt Standard](https://img.shields.io/badge/Prompt-Engineering%202.0-blue?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![No-AI](https://img.shields.io/badge/Crafted-100%25%20Human%20Logic-blue?style=for-the-badge)]()
+[![Format](https://img.shields.io/badge/Format-Markdown%20%7C%20JSON-orange?style=for-the-badge)]()
 
-[🔗 Live Template Demo](https://your-name.notion.site/Freelance-OS-Demo) · [📋 View Architecture](#-database-architecture) · [💼 Hire on Fiverr](https://fiverr.com)
+[📋 View Prompts](#-available-system-prompt-templates) · [🛡️ Safety & Guardrails](#%EF%B8%8F-built-in-guardrails) · [💼 Hire on Fiverr](https://fiverr.com)
 
 </div>
 
 ---
 
-## 📌 Workspace Architecture
+## 📌 Architectural Blueprint
 
-This workspace eliminates the need for multiple subscription tools by centralizing your business into **4 interconnected databases**:
+This repository implements the 5-layer enterprise system prompt design pattern:
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ 🚀 FREELANCER DASHBOARD                                                     │
-├──────────────────────────────────────┬──────────────────────────────────────┤
-│ 📌 QUICK INBOX                       │ 📊 BUSINESS KPIs                     │
-│  • [+ New Project]                   │  • Active Projects: 3                │
-│  • [+ Add Client Lead]               │  • Pending Invoices: $2,400          │
-├──────────────────────────────────────┴──────────────────────────────────────┤
-│ 📁 ACTIVE PROJECTS (Board View grouped by Status)                           │
-│  [ In Progress ]                                                            │
-│  • E-Commerce Mobile App   | Client: Apex Tech | [████████░░] 80%           │
-│  • Web Redesign            | Client: Bolt Inc  | [████░░░░░░] 40%           │
+│ 🧠 SYSTEM PROMPT ARCHITECTURE LAYERS                                        │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ 📅 DAILY TASK KANBAN (Filtered: Due Date = Today & Status ≠ Done)           │
-│  [ To Do ]            [ In Progress ]          [ Completed ]                │
-│  • Fix UI Contrast    • API Integration        • Database Sync              │
+│ 1. 🎭 IDENTITY & ROLE     ➔ Defines authority level and domain expertise    │
+│ 2. 🎯 CONTEXT & GOALS    ➔ Specifies boundary limits and core objective    │
+│ 3. 🛡️ GUARDRAILS          ➔ Enforces safety, tone, and hallucination rules  │
+│ 4. ⚙️ OUTPUT SCHEMA       ➔ Specifies exact JSON/Markdown structure return  │
+│ 5. 🧪 FEW-SHOT EXAMPLES   ➔ Provides sample inputs and target responses     │
 └─────────────────────────────────────────────────────────────────────────────┘
